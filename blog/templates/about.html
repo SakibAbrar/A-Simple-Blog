@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <h2>Meet Our Developer Team</h2>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="media">
+                <img class="rounded-circle account-img" src="{{ url_for('static', filename='profile_pics/' + 'sakib.jpg') }}">
+                <div class="media-body">
+                  <h2 class="account-heading">Sakib Abrar</h2>
+                  <p class="text-secondary">sakib.cghs@gmail.com</p>
+                  <p class="text-secondary">1605090</p>
+                    <a href="http://www.facebook.com/sakib.abrar.sa" class="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/sakib-abrar-b42938156/" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="http://www.instagram.com/_sakib_abrar_" class="fa fa-instagram"></a>
+                    <a href="https://github.com/SakibAbrar" class="fa fa-github"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="media">
+                <img class="rounded-circle account-img" src="{{ url_for('static', filename='profile_pics/' + 'rafid.jpg') }}">
+                <div class="media-body">
+                  <h2 class="account-heading">Rafid Noor</h2>
+                  <p class="text-secondary">rafidnoor3@gmail.com</p>
+                  <p class="text-secondary">1605061</p>
+                    <a href="http://www.facebook.com/sakib.abrar.sa" class="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/sakib-abrar-b42938156/" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="http://www.instagram.com/_sakib_abrar_" class="fa fa-instagram"></a>
+                    <a href="https://github.com/SakibAbrar" class="fa fa-github"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock content %}
